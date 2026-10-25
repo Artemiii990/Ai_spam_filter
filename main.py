@@ -3,8 +3,7 @@ import os
 import re
 import sqlite3
 
-# Можна використовувати OpenAI, Hugging Face або інший AI SDK.
-# Для універсальності використано просту обгортку аналізу за допомогою HTTP/LLM або локального fallback.
+
 try:
     import openai
 
